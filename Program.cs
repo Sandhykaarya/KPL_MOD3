@@ -6,7 +6,10 @@ namespace modul3_1302204002
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(KodeBuah.getKodeBuah(KodeBuah.Buah.Melon));
+            // Console.WriteLine(KodeBuah.getKodeBuah(KodeBuah.Buah.Melon));
+            PosisiKarakterGame pkg = new PosisiKarakterGame();
+
+            pkg.play();
         }
     }
 }
